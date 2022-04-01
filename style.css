@@ -431,3 +431,11 @@ header img{
     width: 180px;
     margin-top: 23px;
 }
+
+.column{
+    transition: transform 0.5s;
+}
+
+.column:hover {
+    transform: translateY(-5px)
+}
