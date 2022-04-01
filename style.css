@@ -1,0 +1,416 @@
+*{
+    margin: 0;
+    padding 0;
+    font-family: 'Helvetica';
+    }
+    box-sizing: border-box;
+}
+
+header{
+    height: 60px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+}
+
+#logo{
+    line-height: 60px;
+    margin-left: 40px;
+    margin-top: 10px;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: bold;
+    color: black
+}
+
+.sign{
+    float: right;
+    line-height: 90px;
+    margin-right: 40px;
+}
+
+.sign2{
+    float: right;
+    line-height: 60px;
+    margin-right: 40px;
+}
+
+.sign a{
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.sign2 a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.sign a:hover{
+    color: rgb(124, 133, 255);
+}
+
+.sign2 a:hover{
+    color: rgb(124, 133, 255);
+}
+
+h1{
+    position: absolute;
+    color: red;
+    letter-spacing: 0px;
+    line-height: 25px;
+    top: 40%;
+    left: 15%;
+    z-index: 1;
+}
+
+p2{
+    position: absolute;
+    color: red;
+    letter-spacing: 0px;
+    line-height: 25px;
+    top: 48%;
+    left: 15%;
+    z-index: 1;
+}
+
+h3{
+    position: absolute;
+    color: black;
+    font-size: 30px;
+    letter-spacing: 0px;
+    line-height: 25px;
+    top: 108%;
+    left: 15%;
+    z-index: 1;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    padding-bottom: 150px;
+}
+
+.container6 {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    padding-bottom: 150px;
+}
+
+.card {
+    background: white;
+    width: 270px;
+    height: 300px;
+    margin: 60px;
+}
+
+.card2 {
+    background: white;
+    width: 450px;
+    height: 300px;
+    margin: 50px;
+}
+
+.card3 {
+    background: white;
+    width: 450px;
+    height: 300px;
+    margin: 50px;
+    padding-top: 80px;
+}
+
+.card-image {
+    background-color: aqua;
+    height: 300px;
+    margin-bottom: 15px;
+    background-size: cover;
+}
+
+.card-image2 {
+    background-color: aqua;
+    height: 480px;
+    margin-bottom: 15px;
+    background-size: cover;
+}
+
+.item-1 {
+    background-image: url(shirt.png);
+}
+
+.item-2 {
+    background-image: url(insitesmug.png);
+}
+
+.item-3 {
+    background-image: url(shirt.png);
+}
+
+.prev, .next{
+    position: absolute;
+    top: 135%;
+    font-size: 70px;
+    pading: 55px;
+    cursor: pointer;
+}
+
+.next{
+    margin-right: -1200px;
+}
+
+.prev{
+    margin-left: -1200px;
+}
+
+h4{
+    position: absolute;
+    color: black;
+    font-size: 30px;
+    letter-spacing: 0px;
+    line-height: 25px;
+    top: 18%;
+    left: 15%;
+    z-index: 1;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 180px;
+    padding-bottom: 0px;
+}
+
+.container3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    padding-bottom: 0px;
+}
+
+.container4 {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    padding-bottom: 300px;
+}
+
+.container5 {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    padding-bottom: 80px;
+}
+
+.categories{
+    margin: 70px 0;
+}
+
+.col-3{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+
+.col-3 img{
+    width: 100%;
+}
+
+.col-2 img{
+    width: 200%;
+    padding-right: 50%;
+}
+
+.col-2{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.row{
+    display: flex;
+    padding-left: 195px;
+    padding-right: 195px;
+    margin-top: 160px;
+}
+
+.row a{
+    text-decoration: none;
+    color: #000;
+}
+
+.row h2{
+    margin-top: 15px;
+}
+
+.row2{
+    display: flex;
+    padding-left: 195px;
+    padding-right: 195px;
+    margin-top: 80px;
+    margin-bottom: 140px;   
+}
+
+.row2 h2{
+    margin-top: 15px;
+}
+
+.row3{
+    display: flex;
+    padding-left: 195px;
+    padding-right: 195px;
+    margin-top: 100px;
+}
+
+.column{
+    flex: 33.33%;
+    padding: 30px;
+}
+
+.footer{
+    background: #000;
+    color: #000;
+    font-size: 14px;
+}
+
+.footer p{
+    color: azure;
+}
+
+.footer h5{
+    color: white;
+    margin-bottom: 20px;
+}
+
+.footer ul{
+    color:white
+}
+
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
+    min-width: 350px;
+    margin-bottom: 20px;
+}
+
+.footer-col-1{
+    flex-basis: 30%;
+}
+
+.footer-col-2{
+    flex: 1;
+    text-align: center;
+}
+
+.footer-col-2 img{
+    width: 180px;
+    margin-bottom: 20px;
+}
+
+.footer-col-3{
+    flex-basis: 12%;
+    text-align: center;
+    
+}
+
+.footer-col-2 p{
+    color: rgb(165, 165, 165);
+}
+
+.footer-col-1 p{
+    color: rgb(165, 165, 165);
+}
+
+ul{
+    list-style-type: none;
+}
+
+.app-logo{
+    margin-top: 20px;
+}
+
+.app-logo img{
+    width: 140px;
+}
+
+h5{
+    font-size: 20px;
+}
+
+p{
+    font-size: 16px;
+    color: grey;
+}
+
+li{
+    font-size: 16px;
+    color: rgb(158, 158, 158);
+    text-indent: -12%;
+    
+}
+
+.card3 h2{
+    font-size: 40px;
+    margin-bottom: 2px;
+
+}
+
+.card3 p{
+    font-size: 20px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.card3 select{
+    margin-bottom: 20px;
+    display: block;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.card3 h5{
+    margin-bottom: 8px;
+}
+
+.card3 p5{
+    font-size: 14px;
+    color: gray;
+}
+
+.card2 p{
+    margin-bottom: 15px;
+}
+
+.btn{
+    font-size: 20px;
+    text-decoration: none;
+    margin-bottom: 30px;
+    background-color: rgb(0, 204, 0);
+    border-radius: 20px;
+    border: 1px solid;
+    padding: 10px;
+    color: white
+}
+
+input{
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    border: 1px solid #000
+}
+
+header img{
+    width: 180px;
+    margin-top: 23px;
+}
